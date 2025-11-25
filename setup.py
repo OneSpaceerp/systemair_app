@@ -1,10 +1,18 @@
 from setuptools import setup, find_packages
+import os
 
 with open("requirements.txt") as f:
 	install_requires = f.read().strip().split("\n")
 
 # get version from __version__ variable in systemair_app/__init__.py
-from systemair_app import __version__ as version
+version = '0.0.1'
+init_path = os.path.join(os.path.dirname(__file__), "systemair_app", "__init__.py")
+if os.path.exists(init_path):
+	with open(init_path) as f:
+		for line in f:
+			if line.startswith("__version__"):
+				version = line.split("=")[1].strip().strip("'").strip('"')
+				break
 
 setup(
 	name="systemair_app",
