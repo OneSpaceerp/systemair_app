@@ -1,0 +1,10 @@
+{
+    "name": "systemair_app",
+    "version": "0.0.1",
+    "description": "SystemAir Fan Cost Calculator and Quotation App",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Nest Software",
+    "license": "MIT"
+}
