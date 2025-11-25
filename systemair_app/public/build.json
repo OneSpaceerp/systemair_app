@@ -1,0 +1,6 @@
+{
+    "entry_points": [
+        "js/systemair_app.js",
+        "css/systemair_app.css"
+    ]
+}
