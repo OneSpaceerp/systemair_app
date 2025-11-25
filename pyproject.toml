@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
@@ -12,3 +13,19 @@ authors = [
 ]
 license = { file = "LICENSE" }
 dependencies = []
+=======
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "systemair_app"
+version = "0.0.1"
+description = "SystemAir Fan Cost Calculator and Quotation App"
+readme = "README.md"
+authors = [
+    { name = "Nest Software", email = "info@nestsoftware.com" }
+]
+license = { file = "LICENSE" }
+dependencies = []
+>>>>>>> origin/main

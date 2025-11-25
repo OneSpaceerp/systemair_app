@@ -11,7 +11,7 @@ SystemAir Fan Cost Calculator and Quotation App for ERPNext.
 ## Installation
 
 1.  Get the app
-    ```bench get-app https://github.com/yourusername/systemair_app```
+    ```bench get-app https://github.com/onespaceerp/systemair_app```
 2.  Install the app
     ```bench --site [site-name] install-app systemair_app```
 
