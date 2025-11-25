@@ -1,0 +1,68 @@
+{
+    "actions": [],
+    "allow_rename": 1,
+    "creation": "2024-05-22 10:00:00.000000",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "default_currency_rate",
+        "default_customs_percentage",
+        "default_vat_factor",
+        "default_cost_factor",
+        "default_margin_percentage"
+    ],
+    "fields": [
+        {
+            "fieldname": "default_currency_rate",
+            "fieldtype": "Float",
+            "label": "Default Currency Rate",
+            "precision": "9",
+            "default": "1.0"
+        },
+        {
+            "fieldname": "default_customs_percentage",
+            "fieldtype": "Percent",
+            "label": "Default Customs Percentage"
+        },
+        {
+            "fieldname": "default_vat_factor",
+            "fieldtype": "Float",
+            "label": "Default VAT Factor",
+            "description": "e.g. 1.14 for 14% VAT",
+            "default": "1.14"
+        },
+        {
+            "fieldname": "default_cost_factor",
+            "fieldtype": "Float",
+            "label": "Default Cost Factor",
+            "default": "1.0"
+        },
+        {
+            "fieldname": "default_margin_percentage",
+            "fieldtype": "Percent",
+            "label": "Default Margin Percentage"
+        }
+    ],
+    "issingle": 1,
+    "links": [],
+    "modified": "2024-05-22 10:00:00.000000",
+    "modified_by": "Administrator",
+    "module": "SystemAir App",
+    "name": "SystemAir Settings",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "print": 1,
+            "read": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": []
+}

@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include systemair_app *.css
+recursive-include systemair_app *.csv
+recursive-include systemair_app *.html
+recursive-include systemair_app *.ico
+recursive-include systemair_app *.js
+recursive-include systemair_app *.json
+recursive-include systemair_app *.md
+recursive-include systemair_app *.png
+recursive-include systemair_app *.py
+recursive-include systemair_app *.svg
+recursive-include systemair_app *.txt
+recursive-exclude systemair_app *.pyc

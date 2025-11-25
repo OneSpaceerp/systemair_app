@@ -1,0 +1,81 @@
+{
+    "actions": [],
+    "allow_rename": 1,
+    "autoname": "SA-Q-.YYYY.-.#####",
+    "creation": "2024-05-22 10:00:00.000000",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "customer",
+        "date",
+        "total_shipping_amount",
+        "section_break_items",
+        "items",
+        "section_break_totals",
+        "total_amount"
+    ],
+    "fields": [
+        {
+            "fieldname": "customer",
+            "fieldtype": "Link",
+            "label": "Customer",
+            "options": "Customer",
+            "reqd": 1
+        },
+        {
+            "fieldname": "date",
+            "fieldtype": "Date",
+            "label": "Date",
+            "default": "Today",
+            "reqd": 1
+        },
+        {
+            "fieldname": "total_shipping_amount",
+            "fieldtype": "Currency",
+            "label": "Total Shipping Amount",
+            "reqd": 1
+        },
+        {
+            "fieldname": "section_break_items",
+            "fieldtype": "Section Break"
+        },
+        {
+            "fieldname": "items",
+            "fieldtype": "Table",
+            "label": "Items",
+            "options": "SystemAir Fan Item"
+        },
+        {
+            "fieldname": "section_break_totals",
+            "fieldtype": "Section Break"
+        },
+        {
+            "fieldname": "total_amount",
+            "fieldtype": "Currency",
+            "label": "Total Amount",
+            "read_only": 1
+        }
+    ],
+    "index_web_pages_for_search": 1,
+    "links": [],
+    "modified": "2024-05-22 10:00:00.000000",
+    "modified_by": "Administrator",
+    "module": "SystemAir App",
+    "name": "SystemAir Quotation",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "print": 1,
+            "read": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": []
+}

@@ -1,0 +1,196 @@
+{
+    "actions": [],
+    "allow_rename": 1,
+    "creation": "2024-05-22 10:00:00.000000",
+    "doctype": "DocType",
+    "editable_grid": 1,
+    "engine": "InnoDB",
+    "field_order": [
+        "sn",
+        "location",
+        "reference",
+        "origin",
+        "fan_type",
+        "model",
+        "col_break_1",
+        "flow_ls",
+        "esp_pa",
+        "ex_price",
+        "discount_percentage",
+        "qty",
+        "basic_t_ex_price",
+        "discount_on_basic_percentage",
+        "final_t_ex_price",
+        "col_break_2",
+        "shipping_fee",
+        "cif",
+        "customs_percentage",
+        "vat_factor",
+        "cost_factor",
+        "currency_rate",
+        "dry_ddp_cost",
+        "margin_percentage",
+        "unit_price",
+        "total_price"
+    ],
+    "fields": [
+        {
+            "fieldname": "sn",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "label": "SN"
+        },
+        {
+            "fieldname": "location",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "label": "Location"
+        },
+        {
+            "fieldname": "reference",
+            "fieldtype": "Data",
+            "label": "Reference"
+        },
+        {
+            "fieldname": "origin",
+            "fieldtype": "Data",
+            "label": "Origin"
+        },
+        {
+            "fieldname": "fan_type",
+            "fieldtype": "Select",
+            "label": "Fan Type",
+            "options": "Axial Inline\nCentrifugal Inline\nInline Fan\nWall Mounted\nFan Section\nAxial Roof Top\nCentrifugal Roof Top\nInduction Jet Fan"
+        },
+        {
+            "fieldname": "model",
+            "fieldtype": "Data",
+            "label": "Model"
+        },
+        {
+            "fieldname": "col_break_1",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "flow_ls",
+            "fieldtype": "Float",
+            "label": "Flow l/s"
+        },
+        {
+            "fieldname": "esp_pa",
+            "fieldtype": "Float",
+            "label": "ESP Pa"
+        },
+        {
+            "fieldname": "ex_price",
+            "fieldtype": "Currency",
+            "label": "EX Price",
+            "precision": "2"
+        },
+        {
+            "fieldname": "discount_percentage",
+            "fieldtype": "Percent",
+            "label": "Discount %"
+        },
+        {
+            "fieldname": "qty",
+            "fieldtype": "Int",
+            "label": "Qty",
+            "default": "1"
+        },
+        {
+            "fieldname": "basic_t_ex_price",
+            "fieldtype": "Currency",
+            "label": "Basic T EX Price",
+            "read_only": 1,
+            "precision": "2"
+        },
+        {
+            "fieldname": "discount_on_basic_percentage",
+            "fieldtype": "Percent",
+            "label": "Discount on Basic %"
+        },
+        {
+            "fieldname": "final_t_ex_price",
+            "fieldtype": "Currency",
+            "label": "Final T EX Price",
+            "read_only": 1,
+            "precision": "2"
+        },
+        {
+            "fieldname": "col_break_2",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "shipping_fee",
+            "fieldtype": "Currency",
+            "label": "Shipping Fee",
+            "read_only": 1,
+            "precision": "2"
+        },
+        {
+            "fieldname": "cif",
+            "fieldtype": "Currency",
+            "label": "CIF",
+            "read_only": 1,
+            "precision": "2"
+        },
+        {
+            "fieldname": "customs_percentage",
+            "fieldtype": "Percent",
+            "label": "Customs %"
+        },
+        {
+            "fieldname": "vat_factor",
+            "fieldtype": "Float",
+            "label": "VAT Factor"
+        },
+        {
+            "fieldname": "cost_factor",
+            "fieldtype": "Float",
+            "label": "Cost Factor"
+        },
+        {
+            "fieldname": "currency_rate",
+            "fieldtype": "Float",
+            "label": "Currency Rate"
+        },
+        {
+            "fieldname": "dry_ddp_cost",
+            "fieldtype": "Currency",
+            "label": "Dry DDP Cost",
+            "read_only": 1,
+            "precision": "2"
+        },
+        {
+            "fieldname": "margin_percentage",
+            "fieldtype": "Percent",
+            "label": "Margin %"
+        },
+        {
+            "fieldname": "unit_price",
+            "fieldtype": "Currency",
+            "label": "Unit Price",
+            "read_only": 1,
+            "precision": "2"
+        },
+        {
+            "fieldname": "total_price",
+            "fieldtype": "Currency",
+            "label": "Total Price",
+            "read_only": 1,
+            "precision": "2"
+        }
+    ],
+    "istable": 1,
+    "links": [],
+    "modified": "2024-05-22 10:00:00.000000",
+    "modified_by": "Administrator",
+    "module": "SystemAir App",
+    "name": "SystemAir Fan Item",
+    "owner": "Administrator",
+    "permissions": [],
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": []
+}
