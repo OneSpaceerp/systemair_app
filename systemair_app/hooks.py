@@ -9,8 +9,8 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-app_include_css = "/assets/systemair_app/css/systemair_app.css"
-app_include_js = "/assets/systemair_app/js/systemair_app.js"
+# app_include_css = "/assets/systemair_app/css/systemair_app.css"
+# app_include_js = "/assets/systemair_app/js/systemair_app.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/systemair_app/css/systemair_app.css"
